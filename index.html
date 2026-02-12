@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <!-- link di importazione CDN di BOOTSTRAP   -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+
+    <!-- link di importazione css personalizzato, da inserire sempre sotto a bootstrap   -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- link di importazione CDN icone FONT AWESOME  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    
+    <!-- link di importazione CDN icone boostrap  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- importazione google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+     <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg shadow-sm sticky-top navbar-color">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">
+                    <img src="immagini/logo_j&C.jpg" alt="logo J&C" height="70">
+
+                </a>
+               
+                <!-- Hamburger menu  -->
+                <button 
+                    class="navbar-toggler" 
+                    type="button"
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#navMenu"
+                    aria-controls="navMenu"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    >
+                    <i class="bi bi-list"></i>
+                </button> 
+                
+                <div class="collapse navbar-collapse" id="navMenu">
+
+                     <span class="" style="color: #fe724f;"> <em> J&C Assicurazioni: la protezione giusta, al momento giusto. </em></span>
+
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#chisiamo" class="nav-link" >Chi siamo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#servizi" class="nav-link">Servizi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#footer" class="nav-link" >Contatti</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#footer" class="nav-link" >Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- SEZIONE ABOUT -->
+        <section class="chi-siamo" id="chisiamo">
+            <div class="container d-flex justify-content-center align-items-center py-5">    
+                <div class="card shadow-lg" style="width: 50%;">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center">
+                                <h3 class="card-title text-center" 
+                                style="color: #345D8F;">J </h3> <h3 class="card-title text-center" 
+                                style="color: #DE5C3A;"> <small> & </small> </h3> 
+                                <h3 class="card-title text-center" style= "color: #345D8F">C</h3>
+                            </div>
+
+                            <h4 class="card-subtitle mb-2 text-body-tertiary">Chi siamo</h4>
+                            
+                            <p class="card-text">
+                            J&C Assicurazioni offre soluzioni assicurative su misura per persone, famiglie e imprese, con l’obiettivo di proteggere ciò che conta davvero.
+
+                            Grazie a un team qualificato e a una consulenza personalizzata, accompagna ogni cliente nella scelta delle coperture più adatte, garantendo trasparenza, affidabilità e supporto continuo nel tempo.
+
+                            Si distingue per ascolto, flessibilità e capacità di proporre soluzioni aggiornate, costruendo con i clienti un rapporto di fiducia duraturo orientato alla serenità e alla sicurezza.
+                            </p>
+
+                            <div class="d-flex justify-content-evenly mt-2 gap-2">
+                                <a href="#servizi" class=" btn btn-sm btn-primary">I nostri servizi</a>
+                                <a href="#contatti" class="btn btn-sm btn-primary">Contattaci</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+        </section>
+
+        <!-- SEZIONE SERVIZI/CARDS -->
+
+        <section class="servizi" id="servizi">
+            
+           <h2 class="p-4" > I nostri servizi </h2>
+
+           <div class="container-fluid">
+             <h4 class="py-2 ms-2 text-center"> Risparmio e Previdenza </h4>
+                <div class="row">
+                    <div class="card col col-md-3">
+                        <img src="immagini/piano_accumulo_bambini.png" class="card-img-top" alt="piano accumulo bambini">
+                        <div class="card-body">
+                            <p class="card-title text-center">Piano di Accumulo per Bambini</p>
+                        </div>
+                    </div>
+
+                    <div class="card col col-md-3 ">
+                        <img src="immagini/fondo_pensione.png" class="card-img-top" alt="fondo pensione">
+                        <div class="card-body">
+                            <p class="card-title text-center">Fondo Pensione</p>
+                        </div>
+                    </div>
+
+                    <div class="card col col-md-3 ">
+                        <img src="immagini/tcm.png" class="card-img-top" alt="TCM">
+                        <div class="card-body">
+                            <p class="card-title text-center">Temporanea Caso Morte (TCM)</p>
+                        
+                        </div>
+                    </div>
+
+                    <div class="card col col-md-3">
+                        <img src="immagini/LTC.png" class="card-img-top" alt="LTC">
+                        <div class="card-body">
+                            <p class="card-title text-center">Long Term Care</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="container-fluid ">
+             <h4 class="py-4 ms-2 text-center"> Salute e Infortuni </h4>
+                    
+                <div class="row ">
+                
+                        <div class="card col col-md-3">
+                            <img src="immagini/Assicurazione sanitaria.png" class="card-img-top" alt="Assicurazione sanitaria">
+                            <div class="card-body">
+                                <p class="card-title text-center">Assicurazione Sanitaria</p>
+                            
+                            </div>
+                        </div>
+
+                        <div class="card col col-md-3">
+                            <img src="immagini/polizza_infortuni.png" class="card-img-top" alt="Polizza infortuni">
+                            <div class="card-body">
+                                <p class="card-title text-center">Polizza Infortuni</p>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+
+            <div class="container-fluid  ">
+             <h4 class="py-4 ms-2 text-center"> Assicurazioni per la Casa e il Patrimonio</h4>
+                <div class="row">
+                    <div class="card col col-md-3">
+                        <img src="immagini/polizza_casa.png" class="card-img-top" alt="polizza casa">
+                        <div class="card-body">
+                            <p class="card-title text-center">Polizza Casa </p>
+                        </div>
+                    </div>
+
+                    <div class="card col col-md-3 ">
+                        <img src="immagini/ass_condominio.png" class="card-img-top" alt="Assicurazione condominio">
+                        <div class="card-body">
+                            <p class="card-title text-center">Assicurazione condominio </p>
+                        </div>
+                    </div>
+
+                    <div class="card col col-md-3 ">
+                        <img src="immagini/ass_capofamiglia.png" class="card-img-top" alt="Capofamiglia">
+                        <div class="card-body">
+                            <p class="card-title text-center">RC Capofamiglia e  <br> Capofamiglia <br> Vita privata </p>
+                        
+                        </div>
+                    </div>
+
+                     <div class="card col col-md-3">
+                        <img src="immagini/cane_gatto.png" class="card-img-top" alt="Cane&Gatto">
+                        <div class="card-body">
+                            <p class="card-title text-center">Cane&Gatto</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="container-fluid ">
+             <h4 class="py-4 ms-2 text-center"> Veicoli e Viaggi </h4>
+                    
+                <div class="row ">
+                
+                        <div class="card col col-md-3">
+                            <img src="immagini/RCA.png" class="card-img-top" alt="RCA">
+                            <div class="card-body">
+                                <p class="card-title text-center"> RCA</p>                            
+                            </div>
+                        </div>
+
+                        <div class="card col col-md-3">
+                            <img src="immagini/Assicurazione_viaggi.png" class="card-img-top" alt="Polizza infortuni">
+                            <div class="card-body">
+                                <p class="card-title text-center">Assicurazione viaggi</p>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+            
+            <div class="container-fluid ">
+             <h4 class="py-4 ms-2 text-center"> Attività Professionali e Imprese </h4>
+                    
+                <div class="row ">
+                
+                        <div class="card col col-md-3">
+                            <img src="immagini/attività_commerciali.png" class="card-img-top" alt="Attività comemrciali">
+                            <div class="card-body">
+                                <p class="card-title text-center">Attività Commerciali</p>                            
+                            </div>
+                        </div>
+
+                        <div class="card col col-md-3">
+                            <img src="immagini/RC_oss.png" class="card-img-top" alt="RC professionale operatori sanitari">
+                            <div class="card-body">
+                                <p class="card-title text-center">RC Professionale Operatori Sanitari</p>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- FOOTER -->
+
+        <footer class="" id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="mt-5 col-md-3 ">
+
+                        <h6> Informazioni IVASS </h6>
+                        <small>J&C Assicurazioni
+                            Corso della Repubblica 270 – 04012 Cisterna di Latina (LT) <br> 
+                            Tel. 06 83089377 <br> 
+                            Cell / WhatsApp 347 6164154 <br>
+                            Email: rcalatina@yahoo.it <br>
+                            PEC: jec.srls@pec.it <br>                            
+                        </small>
+                    </div>
+                    
+
+                    <div class="col-md-3 mt-5">
+
+                        <h6> Reclami </h6>
+                        <small> Eventuali reclami possono essere inviati ai recapiti sopra indicati. 
+                            In caso di esito non soddisfacente o mancata risposta nei termini di legge, 
+                            il cliente potrà rivolgersi all’IVASS secondo le modalità previste. 
+                        </small>
+                        
+                    </div>
+
+                     <div class="col-md-3 mt-5">
+
+                        <h6>  Nota legale </h6>
+                        <small> Le informazioni presenti sul sito hanno carattere informativo e non costituiscono offerta contrattuale. 
+                                I prodotti assicurativi sono proposti nel rispetto della normativa vigente e sulla base delle esigenze del cliente.  </small>
+                    </div>
+
+                     <div class="col-md-3 mt-5">
+
+                        
+                        <h6> Social </h6>
+                        <div class="d-flex flex-column">
+                            <p> Instagram: <a href="https://www.instagram.com/jecassicurazioni"> <i class="bi bi-instagram"></i> </a> </p>
+                            <p> Facebook: <a href="https://www.facebook.com/JCsrls/"> <i class="bi bi-facebook"></i> </a> </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="policy mt-3">
+
+                <small> Privacy Policy <br>
+
+                        La presente informativa è resa ai sensi del Regolamento UE 2016/679 (GDPR) a coloro che interagiscono con il sito web di J&C Assicurazioni.
+
+                            1. Titolare del trattamento
+
+                            Il Titolare del trattamento dei dati è:
+
+                            J&C Assicurazioni
+                            Corso della Repubblica 270 – 04012 Cisterna di Latina (LT)
+                            Tel. 06 83089377
+                            Email: rcalatina@yahoo.it
+
+                            PEC: jec.srls@pec.it
+
+                            2. Tipologia di dati trattati
+
+                            Attraverso il sito possono essere raccolti:
+
+                            dati identificativi e di contatto (nome, email, telefono)
+
+                            dati forniti volontariamente tramite moduli di contatto o richieste informative
+
+                            dati di navigazione (indirizzo IP, tipo di browser, informazioni tecniche)
+
+                            Non vengono raccolti dati sensibili tramite il sito.
+
+                            3. Finalità del trattamento
+
+                            I dati personali sono trattati per:
+
+                            rispondere a richieste di informazioni o contatto
+
+                            fornire consulenza assicurativa su richiesta dell’utente
+
+                            adempiere a obblighi di legge e regolamentari
+
+                            garantire il corretto funzionamento del sito
+
+                            4. Base giuridica del trattamento
+
+                            Il trattamento si basa su:
+
+                            consenso dell’interessato
+
+                            esecuzione di misure precontrattuali richieste dall’utente
+
+                            obblighi legali cui è soggetto il Titolare
+
+                            5. Modalità del trattamento
+
+                            Il trattamento avviene con strumenti informatici e telematici, nel rispetto delle misure di sicurezza previste dalla normativa vigente, per prevenire accessi non autorizzati, perdita o uso illecito dei dati.
+
+                            6. Conservazione dei dati
+
+                            I dati saranno conservati per il tempo necessario a conseguire le finalità per cui sono stati raccolti e, comunque, nei limiti previsti dalla normativa applicabile.
+
+                            7. Comunicazione e diffusione
+
+                            I dati non saranno diffusi. Potranno essere comunicati a soggetti esterni solo se necessario per obblighi di legge o per l’erogazione del servizio richiesto.
+
+                            8. Diritti dell’interessato
+
+                            L’interessato può esercitare in qualsiasi momento i diritti previsti dagli artt. 15-22 del GDPR, tra cui:
+
+                            accesso ai dati
+
+                            rettifica o cancellazione
+
+                            limitazione o opposizione al trattamento
+
+                            reclamo all’Autorità di controllo
+
+                            Le richieste possono essere inviate ai recapiti del Titolare. </small>
+
+            </div>
+
+
+            <div class="cookies mt-3">
+                <small> 
+                    🍪 Cookie Policy <br>
+
+                        La presente Cookie Policy è parte integrante della Privacy Policy del sito di J&C Assicurazioni.
+
+                        1. Cosa sono i cookie
+
+                        I cookie sono piccoli file di testo che i siti visitati inviano al dispositivo dell’utente, dove vengono memorizzati per essere poi ritrasmessi agli stessi siti alla visita successiva.
+
+                        2. Tipologie di cookie utilizzati
+                        Cookie tecnici
+
+                        Il sito utilizza esclusivamente cookie tecnici, necessari al corretto funzionamento del sito e alla navigazione.
+
+                        Questi cookie:
+
+                        non richiedono il consenso dell’utente
+
+                        non vengono utilizzati per finalità di profilazione
+
+                        Cookie di terze parti
+
+                        Il sito non utilizza cookie di profilazione né cookie pubblicitari di terze parti.
+                        Eventuali servizi esterni (es. mappe o collegamenti) non comportano attività di profilazione da parte del Titolare.
+
+                        3. Gestione dei cookie
+
+                        L’utente può gestire o disabilitare i cookie direttamente dalle impostazioni del proprio browser. La disabilitazione dei cookie tecnici potrebbe compromettere il corretto funzionamento del sito.
+                </small>
+            </div>
+
+            <div class=" subagente mt-3">
+
+                        
+                        <small> 
+                            *J&C Assicurazioni opera in qualità di subagente assicurativo plurimandatario
+                            ed è iscritta al Registro Unico degli Intermediari (RUI) con n.E000446418.
+                            Soggetto sottoposto alla vigilanza dell’IVASS (Istituto per la Vigilanza sulle Assicurazioni).
+                        </small>
+                        
+            </div>
+
+
+        </footer>
+
+      <!-- link di importazione CDN di Bootstrap   -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

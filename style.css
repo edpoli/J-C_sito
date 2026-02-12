@@ -1,0 +1,81 @@
+
+body {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(255, 248, 234);
+    font-family: "Montserrat", "sans-serif";
+
+}
+
+/* NAVBAR*/
+nav,footer {
+    background: #000132;
+   
+}
+
+.bi {
+    color: white;
+    border-color: white;
+}
+
+.nav-item a {
+     color: white
+}
+
+/*MAIN*/
+
+
+.card-subtitle {
+    font-weight: bold;
+}
+
+
+
+.card-title p {
+
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.servizi h4 {
+    font-weight: bold;
+}
+
+.card {
+    background-color: rgb(255, 248, 234);
+    border: none;
+}
+
+.card img {
+    border-radius: 15px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+
+
+/*FOOTER*/
+
+
+footer {
+    color: white;
+}
+
+.policy {
+    font-size: 10px;
+    padding: 0px 110px;
+}
+
+.cookies {
+    font-size: 10px;
+    padding: 0px 110px;
+   
+}
+
+.subagente {
+
+    font-size: 10px;
+    padding: 0px 110px;
+
+}
